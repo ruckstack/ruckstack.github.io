@@ -1,0 +1,36 @@
+# main links
+main:
+  - title: "Quick-Start"
+    url: /quickstart
+  - title: "Documentation"
+    url: /docs
+  - title: "Download"
+    url: /download
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+docs:
+  - title: Quick Start
+    url: /quickstart
+  - title: Ruckstack CLI
+    children:
+      - title: Overview
+        url: /docs/cli
+      - title: Project Configuration
+        url: /docs/cli/project-config.html
+  - title: Server
+    children:
+      - title: Overview
+        url: /docs/server
+      - title: Install + Upgrade
+        url: /docs/server/install
+      - title: Starting
+        url: /docs/server/start
+      - title: System Commands
+        url: /docs/server/system-commands
