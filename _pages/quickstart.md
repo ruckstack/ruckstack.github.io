@@ -6,7 +6,7 @@ sidebar:
     nav: "docs"
 ---
 
-1. [Download](/download) Ruckstack and install it on your development machine
+1. [Download](/download) Ruckstack and extract it on your development and/or build machines
 1. Run `ruckstack new-project --type=example` to generate a complete example project
 1. Build your project with `ruckstack build --project ruckstack.project.config`
 1. Upload the `out/example-1.0.5-installer.run` file to a standard Linux server
