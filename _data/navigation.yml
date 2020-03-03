@@ -4,6 +4,8 @@ main:
     url: /quickstart
   - title: "Documentation"
     url: /docs
+  - title: "Blog"
+    url: /blog
   - title: "Github"
     url: https://github.com/ruckstack/ruckstack
   - title: "Download"

@@ -1,0 +1,9 @@
+<div class="page__footer-follow">
+    <ul class="social-icons">
+        <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> @ruckstack</a></li>
+        <li><a href="mailto:ruckstack@hour23.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> ruckstack@hour23.com</a></li>
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
