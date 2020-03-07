@@ -16,7 +16,7 @@ standard-nav:
     url: /quickstart
   - title: Design
     url: /design
-  - title: Ruckstack CLI
+  - title: App Builder
     url: /docs/cli
     children:
       - title: Overview
