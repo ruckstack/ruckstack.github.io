@@ -1,9 +1,6 @@
 ---
 title: System Commands
 permalink: /docs/server/system-commands
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 If you need to interact with Kubernetes or Containerd directly, direct access to their CLIs are available through `system-control system` sub-commands.

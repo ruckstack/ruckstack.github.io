@@ -1,9 +1,6 @@
 ---
 title: Ruckstack Server Overview
 permalink: /docs/server/
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 The output of the [ruckstack build](/docs/cli) process is an installable version of your entire stack.
@@ -27,4 +24,3 @@ Kubernetes also abstracts away all the network configuration, so no matter what 
 
 Finally, Kubernetes watches the health of the system, and if it sees services no longer responding, it will automatically restart them for you.    
 
-  

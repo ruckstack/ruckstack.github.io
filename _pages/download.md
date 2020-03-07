@@ -1,9 +1,6 @@
 ---
 title: Ruckstack Download
-layout: single
 permalink: /download
-sidebar:
-    nav: "docs"
 ---
 
 ### Current version: 0.6.0

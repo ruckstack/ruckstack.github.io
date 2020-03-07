@@ -1,9 +1,6 @@
 ---
 title: Ruckstack Documentation
 permalink: /docs
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 ## Building Your Application

@@ -1,9 +1,6 @@
 ---
 title: Project Configuration
 permalink: /docs/cli/project-config
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 ## Overview

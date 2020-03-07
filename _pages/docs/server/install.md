@@ -1,9 +1,6 @@
 ---
 title: Server Installation and Upgrade
 permalink: /docs/server/install
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 The [build process](/docs/cli) will create a "run" file which is an executable installer.

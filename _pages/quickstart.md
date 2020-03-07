@@ -1,9 +1,6 @@
 ---
 title: Ruckstack Quick-Start Guide
-layout: single
 permalink: /quickstart
-sidebar:
-    nav: "docs"
 ---
 
 1. [Download](/download) Ruckstack and extract it on your development and/or build machines

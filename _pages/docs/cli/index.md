@@ -1,9 +1,6 @@
 ---
 title: Ruckstack Builder
 permalink: /docs/cli/
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 ### Overview

@@ -1,9 +1,6 @@
 ---
 title: Server Start
 permalink: /docs/server/start
-layout: single
-sidebar:
-    nav: "docs"
 ---
 
 To start the server, run `system-control start`

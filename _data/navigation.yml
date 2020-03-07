@@ -11,16 +11,20 @@ main:
   - title: "Download"
     url: /download
 
-docs:
+standard-nav:
   - title: Quick Start
     url: /quickstart
+  - title: Design
+    url: /design
   - title: Ruckstack CLI
+    url: /docs/cli
     children:
       - title: Overview
         url: /docs/cli
       - title: Project Configuration
         url: /docs/cli/project-config.html
-  - title: Server
+  - title: Your Server
+    url: /docs/server
     children:
       - title: Overview
         url: /docs/server
