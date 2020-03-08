@@ -22,7 +22,13 @@ standard-nav:
       - title: Overview
         url: /docs/cli
       - title: Project Configuration
-        url: /docs/cli/project-config.html
+        url: /docs/cli/project-config
+      - title: Dockerfile Services
+        url: /docs/cli/dockerfile-services
+      - title: Helm Services
+        url: /docs/cli/helm-services
+      - title: Manifest Services
+        url: /docs/cli/manifest-services
   - title: Your Server
     url: /docs/server
     children:
