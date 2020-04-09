@@ -40,3 +40,5 @@ standard-nav:
         url: /docs/server/start
       - title: System Commands
         url: /docs/server/system-commands
+      - title: Clustering
+        url: /docs/server/clustering

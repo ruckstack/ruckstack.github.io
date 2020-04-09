@@ -3,17 +3,17 @@ title: Ruckstack Builder
 permalink: /docs/cli/
 ---
 
-### Overview
+## Overview
 
 Ruckstack combines all the pieces of your software stack into a single, customized installable system.
 
-### Installing
+## Installing
 
 To install Ruckstack, go to [the download page](/download) and choose the correct archive for your system.
 
 After downloading, extract Ruckstack to your preferred directory.
 
-### First Steps
+## First Steps
 
 Ruckstack uses a [ruckstack.conf project file](/docs/cli/project-config) to configure how it builds your application. 
 
@@ -24,7 +24,7 @@ There are two types of projects to generate:
 1. **"starter"** which is a mostly-bare but commented ruckstack.conf file
 1. **"example"** which is a complete and buildable example project    
 
-### Configuring Your Project
+## Configuring Your Project
 
 Open your ruckstack.conf file in your favorite text editor to configure your project.
 
@@ -32,7 +32,7 @@ In the config file, you will set the information Ruckstack needs to brand and pe
 
 For more information on how to configure your project, see the [project config documentation](/docs/cli/project-config).
 
-### Building Your Project
+## Building Your Project
 
 Once you have configured your project, build it with `ruckstack build --project /path/to/ruckstack.conf --out /path/to/out/dir`.
 
