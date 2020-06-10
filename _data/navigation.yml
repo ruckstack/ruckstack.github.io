@@ -38,6 +38,12 @@ standard-nav:
         url: /docs/server/install
       - title: Starting
         url: /docs/server/start
+      - title: Restarting
+        url: /docs/server/restart
+      - title: Checking Status
+        url: /docs/server/status
+      - title: Logs
+        url: /docs/server/logs
       - title: System Commands
         url: /docs/server/system-commands
       - title: Clustering

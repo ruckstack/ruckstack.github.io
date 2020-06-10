@@ -39,6 +39,26 @@ feature_row:
 
 {% include feature_row %}
 
+## Recent News)
+
+<dl>
+{% for post in site.posts %}
+
+  {% if forloop.index > 3 %}
+    {% break %}
+  {% endif %}
+
+<dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
+<dl style="margin-left: 20px; margin-top: 5px">{{ post.excerpt }}</dl>
+
+{% endfor %}
+
+<dt><a href="/blog">Read More...</a></dt>
+<dl style="margin-left: 20px; margin-top: 5px">See everything we've had to say</dl>
+
+</dl>
+
+
 ## License
 
 Ruckstack is licensed under the Apache 2.0 license
