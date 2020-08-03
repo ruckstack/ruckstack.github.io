@@ -39,7 +39,9 @@ feature_row:
 
 {% include feature_row %}
 
-## Recent News)
+{% include video id="iuQaIYTvfZ4" provider="youtube" %}
+
+## Recent News
 
 <dl>
 {% for post in site.posts %}
@@ -57,7 +59,6 @@ feature_row:
 <dl style="margin-left: 20px; margin-top: 5px">See everything we've had to say</dl>
 
 </dl>
-
 
 ## License
 
