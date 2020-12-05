@@ -1,6 +1,7 @@
 ---
 title: Server Clustering
 permalink: /docs/server/clustering
+toc: true 
 ---
 
 ## Overview
@@ -14,7 +15,7 @@ plus provides a consistent and predictable way for your services to talk to each
 1. Copy your installer to the new machine and run it. 
 1. When asked if you want to join an existing cluster, say "Y"
 1. The installer will prompt you for a join token
-1. On the existing server, run `system-control cluster add-node` which will give you a token which you copy/paste into the new server's install prompt
+1. On the existing server, run `/path/to/your/executable cluster add-node` which will give you a token which you copy/paste into the new server's install prompt
 1. Finish install and enjoy your new-found capacity!
 
 ## Firewall Requirements

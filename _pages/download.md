@@ -3,12 +3,18 @@ title: Ruckstack Download
 permalink: /download
 ---
 
-### Current version: 0.8.2
+### Current version: 0.9.0
 
-- **Windows** [ruckstack-win-0.8.2.zip](https://github.com/ruckstack/ruckstack/releases/download/v0.8.2/ruckstack-win-0.8.2.zip)
-- **Linux**  [ruckstack-linux-0.8.2.tgz](https://github.com/ruckstack/ruckstack/releases/download/v0.8.2/ruckstack-linux-0.8.2.tgz)
+- **Windows** [ruckstack.exe](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack.exe)
+- **Linux**  [ruckstack](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack)
+- **Mac**  [ruckstack](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack)
+- **Docker**  `docker pull ghcr.io/ruckstack/ruckstack:v0.9.0`
 
 Previous versions [are available](https://github.com/ruckstack/ruckstack/releases) 
+
+### System Requirements
+
+The builder CLI requires [Docker Engine 18.09+ OR Docker Desktop 2.1+](https://docker.io) to run. 
 
 ### Getting Started
 

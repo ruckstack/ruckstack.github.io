@@ -6,7 +6,7 @@ toc: true
 
 ## Overview
 
-The `system-control restart` command allows you restart services and containers.
+The `/path/to/your/executable restart` command allows you restart services and containers.
 
 **Remember:** there should generally be very little reason to have to restart services or containers manually. 
 Ruckstack can automatically detect problematic containers and will automatically restart them, and containers
@@ -15,7 +15,7 @@ will be restarted automatically as part of the upgrade process.
 
 ## Restart A Service
 
-To restart all the containers in a particular service, run `system-control restart service [service-id]`.
+To restart all the containers in a particular service, run `/path/to/your/executable restart service [service-id]`.
 
 ### Available Flags
 
@@ -23,9 +23,9 @@ To restart all the containers in a particular service, run `system-control resta
 
 ## Restart A Container
 
-To restart a particular container, run `system-control restart container [container-id]`.
+To restart a particular container, run `/path/to/your/executable restart container [container-id]`.
 
-The container id can be found with the [system-control status services](/docs/server/status) command.
+The container id can be found with the [/path/to/your/executable status services](/docs/server/status) command.
 
 ### Available Flags
 

@@ -8,16 +8,6 @@ A dockerfile based service is the simplest way to get your application running.
 All you have to do is create a Dockerfile to define how your service gets collected into an image, 
 and Ruckstack generates the rest of the needed configuration for you. 
 
-## System Requirements
-
-Server Requirements:
-- **NONE** 
-  - The server runs an integrated [containerd](https://containerd.io/) runtime  
-
-App Builder Requirements:
-- [Docker Engine 18.09+ OR Docker Desktop 2.1+](https://docker.io)
-  - Used for building the service images   
-
 ## Creating a Dockerfile
 
 Dockerfiles define what is included in your service's image. 
@@ -56,24 +46,23 @@ and [best practices](https://docs.docker.com/develop/develop-images/dockerfile_b
 
 ## Defining the Service
       
-Once you have created your dockerfile, you add a new service definition to your [project configuration](project-config).
+Once you have created your dockerfile, you add a new dockerfileService definition to your [project](project-file).
 
 ```
-[service-cart]
-type: dockerfile
-base_dir: cart
-port: 8080
-base_url: /cart      
+dockerfileServices:
+    - id: cart
+      dockerfile: cart/Dockerfile
+      port: 8080
+      baseUrl: /cart      
 ```
 
 #### Required Fields
-
-**type** | Type of service. Must be "dockerfile" to define a service like this
-**base_dir** | Directory (relative to ruckstack.conf) which contains the Dockerfile and from which the image will be built.  
-**port** | Internal port your service runs on. This port is not exposed externally
+**id** | Unique identifier for this service. Used as the default for filenames and internal descriptors. Must be lowercase alphanumeric (also allows "_" and "-"). 
+**dockerfile** | Path to the Dockerfile (relative to ruckstack.yaml) which definese the image to be built.  
+**port** | Internal port your service runs on. This port is not exposed externally.
 
 #### Optional Fields
 
-**base_url** | Any server request that start with this url will be routed to your service
-**service_version** | Version of this particular service, which can be different than the project-wide version. If not specified, a version will be auto-generated. Generally the auto-generated version is best because new service builds will not be deployed unless the version changes. 
-**path_prefix_strip** | If set to "true", the URL your service sees will have the "base_url" portion of the URL removed.  
+**baseUrl** | Any server request that start with this url will be routed to your service
+**serviceVersion** | Version of this particular service, which can be different from the project-wide version. If not specified, a version will be auto-generated. Generally the auto-generated version is best because new service builds will not be deployed unless the version changes. 
+**pathPrefixStrip** | If set to "true", the URL your service sees will have the "baseUrl" portion of the URL removed.  

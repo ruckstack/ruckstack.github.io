@@ -67,24 +67,23 @@ spec:
 
 ## Defining the Service
       
-Once you have found your service, you add a new service definition to your [project configuration](project-config).
+Once you have found your service, you add a new service definition to your [project](project-file).
 
 ```
-[service-users]
-
-type: manifest
-manifest: users.yaml
-port: 8080
-base_dir: /users   
+manifestServices:
+    - id: users
+      manifest: users.yaml
+      port: 8080
+      baseDir: /users   
 ```
 
 #### Required Fields
 
-**type** | Type of service. Must be "manifest" to define a service like this
-**manifest** | The path to your yaml or json object definition form
-**port** | Internal port your service runs on. This port is not exposed externally
+**id** | Unique identifier for this service. Used as the default for filenames and internal descriptors. Must be lowercase alphanumeric (also allows "_" and "-").
+**manifest** | The path to your yaml or json object definition. Relative to your ruckstack.yaml file.
+**port** | Internal port your service runs on. This port is not exposed externally.
 
 #### Optional Fields
 
-**base_url** | Any server request that start with this url will be routed to your service
-**path_prefix_strip** | If set to "true", the URL your service sees will have the "base_url" portion of the URL removed.  
+**baseUrl** | Any server request that start with this url will be routed to your service.
+**pathPrefixStrip** | If set to "true", the URL your service sees will have the "baseUrl" portion of the URL removed.  

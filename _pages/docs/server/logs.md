@@ -6,11 +6,11 @@ toc: true
 
 ## Overview
 
-The `system-control logs` command allows you to see the logs of individual containers or entire services from any machine in your cluster.
+The `/path/to/your/executable logs` command allows you to see the logs of individual containers or entire services from any machine in your cluster.
 
 ## Service Logs
 
-To view the logs of all the containers in a particular service, run `system-control logs service [service-id]`.
+To view the logs of all the containers in a particular service, run `/path/to/your/executable logs service [service-id]`.
 
 By default, it will show all logs from the previous 24 hours. 
 {: .notice} 
@@ -24,9 +24,9 @@ By default, it will show all logs from the previous 24 hours.
 
 ## Container Logs
 
-To view the logs for a particular container, run `system-control logs container [container-id]`.
+To view the logs for a particular container, run `/path/to/your/executable logs container [container-id]`.
 
-The container id can be found with the [system-control status services](/docs/server/status) command.
+The container id can be found with the [/path/to/your/executable status services](/docs/server/status) command.
 
 By default, it will show all logs from the previous 24 hours. 
 {: .notice} 

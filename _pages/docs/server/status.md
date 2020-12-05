@@ -6,13 +6,13 @@ toc: true
 
 ## Overview
 
-The `system-control status` command is your first stop when understanding the status of the system.
+The `/path/to/your/executable status` command is your first stop when understanding the status of the system.
 
 You are able to check the status of either nodes or services. 
 
 ## Node Status
 
-The status of [nodes in the cluster](/docs/server/clustering) can be checked from any server by running `system-control status nodes`  
+The status of [nodes in the cluster](/docs/server/clustering) can be checked from any server by running `/path/to/your/executable status nodes`  
 
 The output will list all the nodes as well as their health. 
 
@@ -30,13 +30,13 @@ app1 (10.8.8.65): Healthy
 
 ### Available Flags
 
-| \--watch | Continue watching for changes to the nodes |
+| \--follow | Continue watching for changes to the nodes |
 {: .flag-table}
 
 
 ## Service Status
 
-The status of the services running on your cluster can be checked with `system-control status services`.
+The status of the services running on your cluster can be checked with `/path/to/your/executable status services`.
 
 The output will list all the services on your system as well as their health. 
 
@@ -63,5 +63,5 @@ mariadb-backup: UNAVAILABLE. No containers are ready
 ### Available Flags
 
 | \--include-system | Include system-level services in output |
-| \--watch | Continue watching for changes to the services | 
+| \--follow | Continue watching for changes to the services | 
 {: .flag-table}

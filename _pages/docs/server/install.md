@@ -1,9 +1,10 @@
 ---
 title: Server Installation and Upgrade
 permalink: /docs/server/install
+toc: true 
 ---
 
-The [build process](/docs/cli) will create a "run" file which is an executable installer.
+The [build process](/docs/cli) will create an executable installer file.
 
 Copy the installer to your server and execute it as root (usually through sudo).
 The installer will prompt you for any needed install-time configuration values.
@@ -21,11 +22,11 @@ The installer will prompt you for any needed install-time configuration values.
 
 ## Upgrading
 
-To upgrade the system, run `system-control upgrade --file /path/to/installer.run`.
+To upgrade the system, run `/path/to/your/executable upgrade --file /path/to/your-software.installer`.
 
 ## Uninstalling
 
-The system can be uninstalled from a server with `system-control uninstall`. 
+The system can be uninstalled from a server with `/path/to/your/executable uninstall`. 
 
 This will remove all software as well as reset any network changes made.   
 

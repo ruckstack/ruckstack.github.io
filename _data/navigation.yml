@@ -16,13 +16,13 @@ standard-nav:
     url: /quickstart
   - title: Design
     url: /design
-  - title: App Builder
+  - title: Builder CLI
     url: /docs/cli
     children:
       - title: Overview
         url: /docs/cli
-      - title: Project Configuration
-        url: /docs/cli/project-config
+      - title: Project File
+        url: /docs/cli/project-file
       - title: Dockerfile Services
         url: /docs/cli/dockerfile-services
       - title: Helm Services
@@ -44,7 +44,7 @@ standard-nav:
         url: /docs/server/status
       - title: Logs
         url: /docs/server/logs
-      - title: System Commands
-        url: /docs/server/system-commands
+      - title: Raw Commands
+        url: /docs/server/raw-commands
       - title: Clustering
         url: /docs/server/clustering
