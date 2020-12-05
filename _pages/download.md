@@ -5,9 +5,9 @@ permalink: /download
 
 ### Current version: 0.9.0
 
-- **Windows** [ruckstack.exe](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack.exe)
-- **Linux**  [ruckstack](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack)
-- **Mac**  [ruckstack](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack)
+- **Windows** [ruckstack-win-0.9.0.zip](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack-win-0.9.0.zip)
+- **Linux**  [ruckstack-linux-0.9.0.zip](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack-linux-0.9.0.zip)
+- **Mac**  [ruckstack-mac-0.9.0.zip](https://github.com/ruckstack/ruckstack/releases/download/v0.9.0/ruckstack-mac-0.9.0.zip)
 - **Docker**  `docker pull ghcr.io/ruckstack/ruckstack:v0.9.0`
 
 Previous versions [are available](https://github.com/ruckstack/ruckstack/releases) 
