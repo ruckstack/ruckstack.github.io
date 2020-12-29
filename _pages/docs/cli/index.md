@@ -21,7 +21,7 @@ Builder Requirements:
 
 Ruckstack uses a [ruckstack.yaml project file](/docs/cli/project-file) to configure how it builds your application. 
 
-You can create your ruckstack.yaml file from scratch, or use the `ruckstack new-project --type <PROJECT_TYPE>` command to create starter files for you.
+You can create your ruckstack.yaml file from scratch, or use the `ruckstack init --type <PROJECT_TYPE>` command to create starter files for you.
 
 There are two types of projects to generate:
 

@@ -1,4 +1,5 @@
 table td:first-of-type {
     white-space: nowrap;
+    vertical-align: top;
     font-family: Monaco,Consolas,"Lucida Console",monospace;
 }

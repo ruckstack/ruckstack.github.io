@@ -21,6 +21,7 @@ By default, it will show all logs from the previous 24 hours.
 | \--node string  |   Show only containers on the given node. To list logs across all nodes, specify 'all' (default "all") |
 | \--since string  |   Oldest logs to show. Specify as a number and unit, such as 15m or 3h. Defaults to 24h. To list all logs, specify 'all' (default "24h") |
 | \--system-service |  Set this flag if the service is a system service |
+{: .flag-table}
 
 ## Container Logs
 

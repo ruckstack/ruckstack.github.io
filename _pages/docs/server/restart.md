@@ -20,6 +20,7 @@ To restart all the containers in a particular service, run `/path/to/your/execut
 ### Available Flags
 
 | \--system-service | Set this flag if the service is a system service |
+{: .flag-table}
 
 ## Restart A Container
 

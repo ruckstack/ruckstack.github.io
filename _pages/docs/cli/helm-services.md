@@ -39,8 +39,10 @@ helmServices:
 **chart** | The repository and name of the chart in `repository/name` syntax.
 **version** | The version of the *chart* to use. Note: this is often different from the version of the *application*.   
 **port** | Internal port your service runs on. This port is not exposed externally.
+{: .flag-table}
 
 #### Optional Fields
 
 **baseUrl** | Any server request that start with this url will be routed to your service
 **pathPrefixStrip** | If set to "true", the URL your service sees will have the "baseUrl" portion of the URL removed.  
+{: .flag-table}

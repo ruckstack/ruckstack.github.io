@@ -21,6 +21,8 @@ standard-nav:
     children:
       - title: Overview
         url: /docs/cli
+      - title: Project Init
+        url: /docs/cli/init
       - title: Project File
         url: /docs/cli/project-file
       - title: Dockerfile Services
@@ -29,6 +31,8 @@ standard-nav:
         url: /docs/cli/helm-services
       - title: Manifest Services
         url: /docs/cli/manifest-services
+      - title: Server Customization
+        url: /docs/cli/server-customize
   - title: Your Server
     url: /docs/server
     children:
@@ -40,6 +44,10 @@ standard-nav:
         url: /docs/server/start
       - title: Restarting
         url: /docs/server/restart
+      - title: Stopping
+        url: /docs/server/stop
+      - title: Https
+        url: /docs/server/https
       - title: Checking Status
         url: /docs/server/status
       - title: Logs

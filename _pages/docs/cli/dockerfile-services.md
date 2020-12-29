@@ -60,9 +60,11 @@ dockerfileServices:
 **id** | Unique identifier for this service. Used as the default for filenames and internal descriptors. Must be lowercase alphanumeric (also allows "_" and "-"). 
 **dockerfile** | Path to the Dockerfile (relative to ruckstack.yaml) which definese the image to be built.  
 **port** | Internal port your service runs on. This port is not exposed externally.
+{: .flag-table}
 
 #### Optional Fields
 
 **baseUrl** | Any server request that start with this url will be routed to your service
 **serviceVersion** | Version of this particular service, which can be different from the project-wide version. If not specified, a version will be auto-generated. Generally the auto-generated version is best because new service builds will not be deployed unless the version changes. 
 **pathPrefixStrip** | If set to "true", the URL your service sees will have the "baseUrl" portion of the URL removed.  
+{: .flag-table}

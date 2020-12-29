@@ -14,12 +14,14 @@ The default file name is `ruckstack.yaml`.
 **id** | Identifier key for your application. Used as the default for filenames, and internal descriptors. Must be lower case alphanumeric (also allows "_" and "-").
 **name** | Complete name of your application. Used in help documentation and output messages. Should be correctly capitalized and spaced as you prefer. 
 **version** | Overall version of your application.
+{: .flag-table}
 
 #### Optional Fields
 
 **helmVersion** | Version of helm to include. Defaults to the Ruckstack tested version.
 **k3sVersion** | Version of k3s to include. Defaults to the Ruckstack tested version.
 **managerFilename** | What to name the server management binary on the installed system. Defaults to the "id" value above.
+{: .flag-table}
 
 ## Service Sections
 
