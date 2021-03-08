@@ -4,10 +4,10 @@ main:
     url: /quickstart
   - title: "Documentation"
     url: /docs
-  - title: "Blog"
-    url: /blog
-  - title: "Github"
-    url: https://github.com/ruckstack/ruckstack
+  - title: "Community"
+    url: /community
+  - title: "Pro"
+    url: /pro
   - title: "Download"
     url: /download
 
@@ -23,7 +23,7 @@ standard-nav:
         url: /docs/cli
       - title: Project Init
         url: /docs/cli/init
-      - title: Project File
+      - title: Project File Format
         url: /docs/cli/project-file
       - title: Dockerfile Services
         url: /docs/cli/dockerfile-services
@@ -46,12 +46,14 @@ standard-nav:
         url: /docs/server/restart
       - title: Stopping
         url: /docs/server/stop
-      - title: Https
-        url: /docs/server/https
       - title: Checking Status
         url: /docs/server/status
       - title: Logs
         url: /docs/server/logs
+      - title: Config Data
+        url: /docs/server/config-data
+      - title: Https
+        url: /docs/server/https
       - title: Raw Commands
         url: /docs/server/raw-commands
       - title: Clustering

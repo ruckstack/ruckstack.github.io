@@ -1,6 +1,7 @@
 ---
 title: Ruckstack Server Overview
 permalink: /docs/server/
+toc: false
 ---
 
 The output of the [ruckstack build](/docs/cli) process is an installable version of your entire stack.

@@ -1,7 +1,6 @@
 ---
 title: Server Installation and Upgrade
 permalink: /docs/server/install
-toc: true 
 ---
 
 The [build process](/docs/cli) will create an executable installer file.
@@ -11,8 +10,9 @@ The installer will prompt you for any needed install-time configuration values.
 
 **Install Path** | Path to install your software to 
 **Admin Group** | Existing OS group which will be given read/write/execute access to the installation files 
-**Bind Address** | IP Address the server will bind to. 
-  
+**Bind Address** | IP Address the server will bind to.
+{: .flag-table}
+
 #### System Requirements
 
 - Linux OS (almost any flavor)

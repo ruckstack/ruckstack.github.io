@@ -1,6 +1,7 @@
 ---
 title: Requirements & Design
 permalink: /design
+toc: false
 ---
 
 Kubernetes is an amazingly complex and flexible system. There are always many ways to do the same thing, and many different scales it is able to work at.

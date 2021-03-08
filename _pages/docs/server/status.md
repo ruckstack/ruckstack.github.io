@@ -1,7 +1,6 @@
 ---
 title: Status
 permalink: /docs/server/status
-toc: true 
 ---
 
 ## Overview

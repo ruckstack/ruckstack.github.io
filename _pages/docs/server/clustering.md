@@ -1,7 +1,6 @@
 ---
 title: Server Clustering
 permalink: /docs/server/clustering
-toc: true 
 ---
 
 ## Overview
@@ -26,17 +25,17 @@ The following ports need to be open to all nodes on the network, and ONLY nodes 
 | TCP | 6443 | Kubernetes API |
 | TCP | 10250 | Kubernetes API |
 | UDP | 8472 | Cross-node application traffic |
+{: .flag-table}
 
 Notice that all application traffic between nodes is routed over UDP/8472. 
 As far as your applications are concerned, they are talking to each other on whatever ports they normally do, but physically they are all running through a single configuration.    
 
 ## High Availability
 
-At this point, Ruckstack only supports a single "master" node, and additional nodes join as "agents". 
-The first server you install on will be the master, with all additional servers configured as agents.  
+To simplify configuration and management, all Ruckstack-based servers are peers in the cluster.
 
-That means that while clustering will increase your *capacity*, it won't be highly-available because the master node remains a single point of failure.
-Node machines can be taken down at will, but the master node must remain active or the entire cluster is down.
- 
-Future Ruckstack versions will support high-availablity mode, but we are not there yet.
-For now, you must rely on external high-availability options for the master node such as virtualized hardware.    
+However, that means that to avoid a ["split brain"](https://en.wikipedia.org/wiki/Split-brain_(computing)) scenario, 
+you should always install your server on either **ONE** or **THREE OR MORE** servers. 
+
+If you install on two machines, you will improve your *capacity* but not your *availability* because if one of the machines goes down
+the other does not know if the other is down or of there was a network partition and therefore the remaining system does cannot safely continue to run.

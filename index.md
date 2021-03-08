@@ -59,13 +59,3 @@ feature_row:
 <dl style="margin-left: 20px; margin-top: 5px">See everything we've had to say</dl>
 
 </dl>
-
-## License
-
-Ruckstack is licensed under the Apache 2.0 license
-
-## Ruckstack Pro
-
-Ruckstack Pro will offer advanced monitoring and troubleshooting functionality
-
-To sign up for the early access program, contact [ruckstack@hour23.com](mailto:ruckstack@hour23.com)

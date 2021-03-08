@@ -1,7 +1,6 @@
 ---
 title: Logs
 permalink: /docs/server/logs
-toc: true 
 ---
 
 ## Overview

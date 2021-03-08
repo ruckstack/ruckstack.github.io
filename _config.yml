@@ -215,6 +215,7 @@ defaults:
       layout: single
       sidebar:
         nav: "standard-nav"
+      toc: true
   - scope:
       path: ""
       type: posts

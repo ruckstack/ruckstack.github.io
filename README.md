@@ -1,6 +1,6 @@
-# Source for ruckstack.org
+# Source for ruckstack.com
 
-This is the source code backing ruckstack.org
+This is the source code backing ruckstack.com
 
 Looking to improve the docs? Feel free to send us a pull request.
 

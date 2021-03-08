@@ -1,6 +1,7 @@
 ---
 title: The Modern App Server
 permalink: /modern-app-server
+toc: false
 ---
 
 The job of an application server is to be the infrastructure that runs your application. 

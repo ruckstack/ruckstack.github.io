@@ -1,14 +1,15 @@
 ---
 title: Ruckstack Download
 permalink: /download
+toc: false
 ---
 
-### Current version: 0.10.0
+### Current version: 1.0.0
 
-- **Windows** [ruckstack-win-0.10.0.zip](https://github.com/ruckstack/ruckstack/releases/download/v0.10.0/ruckstack-windows-0.10.0.zip)
-- **Linux**  [ruckstack-linux-0.10.0.tar.gz](https://github.com/ruckstack/ruckstack/releases/download/v0.10.0/ruckstack-linux-0.10.0.tar.gz)
-- **Mac**  [ruckstack-mac-0.10.0.tar.gz](https://github.com/ruckstack/ruckstack/releases/download/v0.10.0/ruckstack-mac-0.10.0.tar.gz)
-- **Docker**  `docker pull ruckstack/ruckstack:v0.10.0`
+- **Windows** [ruckstack-win-1.0.0.zip](https://github.com/ruckstack/ruckstack/releases/download/v1.0.0/ruckstack-windows-1.0.0.zip)
+- **Linux**  [ruckstack-linux-1.0.0.tar.gz](https://github.com/ruckstack/ruckstack/releases/download/v1.0.0/ruckstack-linux-1.0.0.tar.gz)
+- **Mac**  [ruckstack-mac-1.0.0.tar.gz](https://github.com/ruckstack/ruckstack/releases/download/v1.0.0/ruckstack-mac-1.0.0.tar.gz)
+- **Docker**  `docker pull ruckstack/ruckstack:v1.0.0`
 
 Previous versions [are available](https://github.com/ruckstack/ruckstack/releases) 
 

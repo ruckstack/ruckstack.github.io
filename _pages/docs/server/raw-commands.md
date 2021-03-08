@@ -1,7 +1,6 @@
 ---
 title: Raw Commands
 permalink: /docs/server/raw-commands
-toc: true 
 ---
 
 If you need to interact with Kubernetes or Containerd directly, raw access to their CLIs are available through `/path/to/your/executable raw` sub-commands.

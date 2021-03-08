@@ -1,6 +1,7 @@
 ---
 title: Industry Standards
 permalink: /industry-standards
+toc: false
 ---
 
 Application management and orchestration is complex and difficult, but there are great tools out there to use.

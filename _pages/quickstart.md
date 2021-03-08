@@ -1,6 +1,7 @@
 ---
 title: Ruckstack Quick-Start Guide
 permalink: /quickstart
+toc: false
 ---
 
 1. [Download](/download) Ruckstack and extract it on your development and/or build machines

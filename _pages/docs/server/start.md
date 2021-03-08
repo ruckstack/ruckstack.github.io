@@ -1,6 +1,7 @@
 ---
 title: Server Start
 permalink: /docs/server/start
+toc: false
 ---
 
 To start the server, run `/path/to/your/executable start`

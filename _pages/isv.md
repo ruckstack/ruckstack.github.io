@@ -1,6 +1,7 @@
 ---
 title: Built for ISVs
 permalink: /isv
+toc: false
 ---
 
 Developing commercial software has always been a balancing act between how you want to develop your app and what you can reasonably install.

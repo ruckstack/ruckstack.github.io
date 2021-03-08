@@ -15,11 +15,13 @@ You can find thousands of charts across multiple different repositories. NOTE: w
 
 ## Ruckstack Helm CLI
 
-Ruckstack includes a simple client for searching for available charts through the ruckstack cli.
+Ruckstack includes a simple client for managing your local Helm repository configuration under the `helm` group.
 
-```
-$> ruckstack helm search --chart mariadb 
-```    
+| ruckstack helm repo add | Adds a new named repository to your local configuration |
+| ruckstack helm repo remove | Removes an existing named repository to your local configuration |
+| ruckstack helm re-index | Refreshes and re-indexes the local cache of available Helm charts |
+{: .flag-table}
+
 
 ## Defining the Service
       
@@ -27,22 +29,23 @@ Once you have found your service, you add a new service definition to your [proj
 
 ```
 helmServices:
-    - id: mariadb
-      chart: stable/mariadb
-      version: 7.3.9
-      port: 3306   
+  - id: postgresql
+    chart: bitnami/postgresql
+    version: 10.2.1
+
+    parameters:
+      image:
+        tag: master
 ```
 
-#### Required Fields
+### Required Fields
 
 **id** | Unique identifier for this service. Used as the default for filenames and internal descriptors. Must be lowercase alphanumeric (also allows "_" and "-").
 **chart** | The repository and name of the chart in `repository/name` syntax.
 **version** | The version of the *chart* to use. Note: this is often different from the version of the *application*.   
-**port** | Internal port your service runs on. This port is not exposed externally.
 {: .flag-table}
 
-#### Optional Fields
+### Optional Fields
 
-**baseUrl** | Any server request that start with this url will be routed to your service
-**pathPrefixStrip** | If set to "true", the URL your service sees will have the "baseUrl" portion of the URL removed.  
+**parameters** | Chart-specific configuration parameters to use  
 {: .flag-table}

@@ -1,6 +1,7 @@
 ---
 title: Ruckstack Documentation
 permalink: /docs
+toc: false
 ---
 
 ## Building Your Application

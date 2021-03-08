@@ -1,7 +1,6 @@
 ---
 title: Restart
 permalink: /docs/server/restart
-toc: true 
 ---
 
 ## Overview

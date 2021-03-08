@@ -1,7 +1,6 @@
 ---
 title: HTTPS/SSL Management 
 permalink: /docs/server/https 
-toc: true
 ---
 
 By default, your server runs without https support. Often times, the https connection is managed in a load balancer, but

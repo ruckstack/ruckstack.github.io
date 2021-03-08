@@ -54,7 +54,7 @@ If you feel like you would potentially find it useful, make sure to let me know.
 
 **How can the docs be better?**
 
-What confuses you about what [ruckstack.org](/) is saying? What is unclear? What is wrong? What is missing? 
+What confuses you about what [ruckstack.com](/) is saying? What is unclear? What is wrong? What is missing? 
 
 I've been building Ruckstack for a while now, so it's hard to see it from fresh eyes. Please be those fresh eyes for me.
 

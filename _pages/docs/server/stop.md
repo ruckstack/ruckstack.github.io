@@ -1,6 +1,7 @@
 ---
 title: Server Stop
 permalink: /docs/server/stop
+toc: false
 ---
 
 To stop the server, run `/path/to/your/executable stop` or send it a SIGTERM signal.

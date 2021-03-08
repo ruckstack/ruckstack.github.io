@@ -1,7 +1,6 @@
 ---
 title: Server Customization
 permalink: /docs/cli/server-customize
-toc: true
 ---
 
 ## Overview

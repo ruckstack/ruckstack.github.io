@@ -15,7 +15,6 @@ To install Ruckstack, go to [the download page](/download) and choose the correc
 Builder Requirements:
 - [Docker Engine 18.09+ OR Docker Desktop 2.1+](https://docker.io)
   - Used for building the service images
-  - Used for running CLI   
 
 ## First Steps
 
