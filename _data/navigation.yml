@@ -56,6 +56,8 @@ standard-nav:
         url: /docs/server/config-data
       - title: Https
         url: /docs/server/https
+      - title: Dev Mode
+        url: /docs/server/dev-mode
       - title: Raw Commands
         url: /docs/server/raw-commands
       - title: Clustering
