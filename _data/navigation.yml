@@ -33,6 +33,8 @@ standard-nav:
         url: /docs/cli/manifest-services
       - title: Server Customization
         url: /docs/cli/server-customize
+      - title: License Management
+        url: /docs/cli/license
   - title: Your Server
     url: /docs/server
     children:
