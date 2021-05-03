@@ -46,7 +46,9 @@ standard-nav:
         url: /docs/server/restart
       - title: Stopping
         url: /docs/server/stop
-      - title: Checking Status
+      - title: Ops Application
+        url: /docs/server/ops
+      - title: Status
         url: /docs/server/status
       - title: Logs
         url: /docs/server/logs

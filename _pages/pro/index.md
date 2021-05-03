@@ -21,19 +21,15 @@ Support is available via standard open-source community channels such as [github
 
 The Pro edition builds on the Starter version by also providing you with the tools you need to succeed.
 
-Currently, this means we provide premium support but soon will also be adding additional functionality such as advanced monitoring and troubleshooting and more. 
-
 |  | **Starter** | **Pro** |
 |:-----|:------:|:-----:|
 | Single-file installer creation | &#x2714; | &#x2714; |
 | Single-binary server management | &#x2714; | &#x2714; |
-| Dockerfile services | &#x2714; | &#x2714; |
-| Helm services | &#x2714; | &#x2714; |
-| Manifest services | &#x2714; | &#x2714; |
+| Dockerfile + helm + manifest services | &#x2714; | &#x2714; |
 | Cluster support | &#x2714; | &#x2714; |
 | Basic monitoring | &#x2714; | &#x2714; |
+| Advanced monitoring |  |  &#x2714; |
 | Support | Community | Premium |
-| Advanced monitoring |  | Coming&nbsp;Soon |
 {: .comparison-table }
 
 ## Purchase Ruckstack Pro
