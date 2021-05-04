@@ -23,6 +23,22 @@ The default file name is `ruckstack.yaml`.
 **managerFilename** | What to name the server management binary on the installed system. Defaults to the "id" value above.
 {: .flag-table}
 
+## Support & Contact Information
+
+Support and contact information is configured as a list of lines in a `support` key.
+
+This information is shown to customers in the [/ops](/docs/server/ops) application as well as through the CLI.
+
+Example:
+
+```
+support:
+  - Support Team
+  - support@example.com
+  - 555-123-4567
+```
+
+
 ## Service Sections
 
 Each service you want to package must have a corresponding service section. 
@@ -69,6 +85,10 @@ id: example
 name: Example Project
 version: 1.0.5
 managerFilename: example-manager
+support:
+  - Support Team
+  - support@example.com
+  - 555-123-4567
 
 proxy:
   - serviceName: postgresql

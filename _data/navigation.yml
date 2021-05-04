@@ -64,3 +64,12 @@ standard-nav:
         url: /docs/server/raw-commands
       - title: Clustering
         url: /docs/server/clustering
+  - title: More
+    url: /
+    children:
+      - title: Quick-Start
+        url: /quickstart
+      - title: Blog
+        url: /blog
+      - title: Community
+        url: /community

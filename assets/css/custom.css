@@ -1,3 +1,7 @@
+h2:first-of-type {
+    margin-top: 10px;
+}
+
 .flag-table td:first-of-type {
     white-space: nowrap;
     vertical-align: top;

@@ -7,7 +7,7 @@ permalink: /docs/server/ops
 
 Your server includes an "Ops" application available at `/ops`. 
 
-The job of the ops system is to provide a browser-based administration system for your application. 
+The job of ops is to provide a browser-based administration system for your application. 
 
 <img src="/assets/images/status-page.png">
 

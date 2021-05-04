@@ -222,6 +222,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      toc: true
       read_time: false
       comments: # true
       share: true

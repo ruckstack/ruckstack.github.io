@@ -1,12 +1,11 @@
 ---
 title: Ruckstack Server Overview
 permalink: /docs/server/
-toc: false
 ---
 
 The output of the [ruckstack build](/docs/cli) process is an installable version of your entire stack.
 
-### How Does It Work?
+## How Does It Work?
 
 At its core, the packaged server is a [k3s-based](http://k3s.io) Kubernetes instance that is configured and optimized for a a single application, on a small (1 to 5) machine cluster.
 
@@ -14,7 +13,7 @@ The Kubernetes system is in charge of making sure all the pieces of the infrastr
 
 Around this Kubernetes core, is a custom management layer to simplify the operation of the server.
 
-### What About Your Code?
+## What About Your Code?
 
 Your application runs within the Kubernetes environment. 
 
