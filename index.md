@@ -39,9 +39,9 @@ feature_row:
 
 {% include feature_row %}
 
-{% include video id="RAvWIUZblRM" provider="youtube" %}
-
-## Recent News
+<div style="column-count: 2">
+<div>
+<h1>Recent News</h1>
 
 <dl>
 {% for post in site.posts %}
@@ -59,3 +59,13 @@ feature_row:
 <dl style="margin-left: 20px; margin-top: 5px">See everything we've had to say</dl>
 
 </dl>
+</div>
+
+<div>
+<h1>Demo</h1>
+<div style="border: 1px solid #EAEAEA;">
+{% include video id="RAvWIUZblRM" provider="youtube" %}
+</div>
+</div>
+
+</div>
